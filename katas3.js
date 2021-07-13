@@ -1,95 +1,430 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
+
+
+window.addEventListener("load", kata1)
+
 function kata1() {
-    // implemente o código do kata 1 aqui
+    let newElement = document.createElement("div");
+    for (let i = 1; i <= 25; i++) {
+
+
+        let newText = document.createTextNode(i + ", ");
+        newElement.appendChild(newText);
+
+
+        let destination = document.getElementById("d0");
+        destination.appendChild(newElement);
+
+    }
 }
+
+// Exibir numero de 1 a 25
+// implemente o código do kata 1 aqui
+
+window.addEventListener("load", kata2)
 
 function kata2() {
-    // implemente o código do kata 2 aqui
+    let newElement = document.createElement("div");
+    for (let i = 25; i >= 1; i--) {
+
+
+        let newText = document.createTextNode(i + ", ");
+        newElement.appendChild(newText);
+
+
+        let destination = document.getElementById("d0");
+        destination.appendChild(newElement);
+
+    }
+
+
 }
+window.addEventListener("load", kata3)
 
 function kata3() {
-    // implemente o código do kata 3 aqui
+    let newElement = document.createElement("div");
+    for (let i = 1; i <= 25; i++) {
+
+
+        let newText = document.createTextNode(i * -1 + ", ");
+        newElement.appendChild(newText);
+
+
+        let destination = document.getElementById("d0");
+        destination.appendChild(newElement);
+
+    }
+
 }
+window.addEventListener("load", kata4)
 
 function kata4() {
-    // implemente o código do kata 4 aqui
+    let newElement = document.createElement("div");
+
+    for (let i = 25; i >= 1; i--) {
+
+
+        let newText = document.createTextNode(i * -1 + ", ");
+        newElement.appendChild(newText);
+
+
+        let destination = document.getElementById("d0");
+        destination.appendChild(newElement);
+
+    }
+
 }
+window.addEventListener("load", kata5)
 
 function kata5() {
-    // implemente o código do kata 5 aqui
+    let newElement = document.createElement("div");
+
+    for (let i = 25; i >= -25; i--) {
+        if (i % 2 !== 0) {
+
+
+            let newText = document.createTextNode(i + ", ");
+            newElement.appendChild(newText);
+
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+
+        }
+    }
+
 }
+window.addEventListener("load", kata6)
 
 function kata6() {
-    // implemente o código do kata 6 aqui
+    let newElement = document.createElement("div");
+
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0) {
+
+
+            let newText = document.createTextNode(i + ", ");
+            newElement.appendChild(newText);
+
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+
+        }
+    }
+
 }
+
+
+window.addEventListener("load", kata7)
 
 function kata7() {
-    // implemente o código do kata 7 aqui
+    let newElement = document.createElement("div");
+
+    for (let i = 1; i <= 100; i++) {
+        if (i % 7 === 0) {
+
+
+            let newText = document.createTextNode(i + ", ");
+            newElement.appendChild(newText);
+
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+
+        }
+    }
+
 }
+window.addEventListener("load", kata8)
 
 function kata8() {
-    // implemente o código do kata 8 aqui
+    let newElement = document.createElement("div");
+    for (let i = 100; i >= 1; i--) {
+        if (i % 3 === 0 || i % 7 === 0) {
+
+
+            let newText = document.createTextNode(i + ", ");
+            newElement.appendChild(newText);
+
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+
+        }
+
+
+    }
 }
+
+window.addEventListener("load", kata9)
 
 function kata9() {
-    // implemente o código do kata 9 aqui
+    let newElement = document.createElement("div");
+
+    for (let i = 1; i <= 100; i++) {
+        if (i % 2 !== 0 && i % 5 === 0) {
+
+
+            let newText = document.createTextNode(i + ", ");
+            newElement.appendChild(newText);
+
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+
+        }
+    }
+
 }
+window.addEventListener("load", kata10)
 
 function kata10() {
-    // implemente o código do kata 10 aqui
+    let newElement = document.createElement("div");
+    for (i = 0; i < sampleArray.length; i++) {
+        let newText = document.createTextNode(sampleArray[i] + " ,");
+        newElement.appendChild(newText);
+
+
+        let destination = document.getElementById("d0");
+        destination.appendChild(newElement);
+
+    }
+
 }
+window.addEventListener("load", kata11)
 
 function kata11() {
-    // implemente o código do kata 11 aqui
+    let newElement = document.createElement("div");
+    for (i = 0; i < sampleArray.length; i++) {
+        if (sampleArray[i] % 2 === 0) {
+            let newText = document.createTextNode(sampleArray[i] + " ,");
+            newElement.appendChild(newText);
+
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+        }
+    }
+
 }
+window.addEventListener("load", kata12)
 
 function kata12() {
-    // implemente o código do kata 12 aqui
+    let newElement = document.createElement("div");
+    for (i = 0; i < sampleArray.length; i++) {
+        if (sampleArray[i] % 2 !== 0) {
+            let newText = document.createTextNode(sampleArray[i] + " ,");
+            newElement.appendChild(newText);
+
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+        }
+    }
+
 }
+window.addEventListener("load", kata13)
 
 function kata13() {
-    // implemente o código do kata 13 aqui
+    let newElement = document.createElement("div");
+    for (i = 0; i < sampleArray.length; i++) {
+        if (sampleArray[i] % 8 === 0) {
+            let newText = document.createTextNode(sampleArray[i] + " ,");
+            newElement.appendChild(newText);
+
+            let destination = document.getElementById("d0");
+            destination.appendChild(newElement);
+        }
+    }
 }
+window.addEventListener("load", kata14)
 
 function kata14() {
-    // implemente o código do kata 14 aqui
+    let newElement = document.createElement("div");
+    for (i = 0; i < sampleArray.length; i++) {
+        let newText = document.createTextNode(sampleArray[i] ** 2 + " ,");
+        newElement.appendChild(newText);
+
+        let destination = document.getElementById("d0");
+        destination.appendChild(newElement);
+
+    }
 }
+window.addEventListener("load", kata15)
 
 function kata15() {
-    // implemente o código do kata 15 aqui
+    let newElement = document.createElement("div");
+    let cont = 0;
+    for (i = 1; i <= 20; i++) {
+        cont += i;
+    }
+    let newText = document.createTextNode(cont);
+    newElement.appendChild(newText);
+
+    let destination = document.getElementById("d0");
+    destination.appendChild(newElement);
+
+
+
 }
+
+window.addEventListener("load", kata16)
+
 
 function kata16() {
-    // implemente o código do kata 16 aqui
+    let newElement = document.createElement("div");
+    let cont = 0;
+
+    for (i = 0; i < sampleArray.length; i++) {
+        cont = cont + sampleArray[i];
+    }
+
+
+    let newText = document.createTextNode(cont);
+    newElement.appendChild(newText);
+
+    let destination = document.getElementById("d0");
+    destination.appendChild(newElement);
 }
+window.addEventListener("load", kata17)
 
 function kata17() {
-    // implemente o código do kata 17 aqui
+    let newElement = document.createElement("div");
+
+    let menor = sampleArray[0];
+
+    for (i = 0; i < sampleArray.length; i++) {
+
+        if (menor > sampleArray[i]) {
+            menor = sampleArray[i];
+        }
+    }
+
+
+    let newText = document.createTextNode(menor);
+    newElement.appendChild(newText);
+
+    let destination = document.getElementById("d0");
+    destination.appendChild(newElement);
+
+
 }
+window.addEventListener("load", kata18)
 
 function kata18() {
-    // implemente o código do kata 18 aqui
+
+    let newElement = document.createElement("div");
+
+    let maior = sampleArray[0];
+
+    for (i = 0; i < sampleArray.length; i++) {
+
+        if (maior < sampleArray[i]) {
+            maior = sampleArray[i];
+        }
+    }
+
+
+    let newText = document.createTextNode(maior);
+    newElement.appendChild(newText);
+
+    let destination = document.getElementById("d0");
+    destination.appendChild(newElement);
+
+
 }
 
-/**
- * Daqui em diante são os bônus, por sua conta e risco
- */
+
+window.addEventListener("load", kataBonus1)
 
 function kataBonus1() {
-    // implemente o código do kata bonus 1 aqui
+    for (i = 1; i <= 20; i++) {
+        // Create a div, with class "bar", and set the width to 100px.
+        let newElement = document.createElement("div");
+        newElement.className = "bar";
+        newElement.style.width = 100 + "px";
+        newElement.style.height = 20 + "px";
+        newElement.style.display = "inline-block";
+        newElement.style.textAlign = "center";
+        // Place a text label inside the new div.
+        let newText = document.createTextNode(i);
+        newElement.appendChild(newText);
+
+        // Put the new div on the page inside the existing element "d0".
+        let destination = document.getElementById("d1");
+        destination.appendChild(newElement);
+    }
 }
+window.addEventListener("load", kataBonus2)
 
 function kataBonus2() {
-    // implemente o código do kata bonus 2 aqui
+    let cont = 105;
+    for (i = 1; i <= 20; i++) {
+        if (cont <= 200) {
+
+            cont += 5;
+        }
+        let newElement = document.createElement("div");
+        newElement.className = "bar";
+        newElement.style.width = cont + "px";
+        newElement.style.height = 20 + "px";
+        newElement.style.display = "inline-block";
+        newElement.style.textAlign = "center";
+        // Place a text label inside the new div.
+        let newText = document.createTextNode(i);
+        newElement.appendChild(newText);
+
+        // Put the new div on the page inside the existing element "d0".
+        let destination = document.getElementById("d2");
+        destination.appendChild(newElement);
+
+        // implemente o código do kata bonus 2 aqui
+    }
 }
+window.addEventListener("load", kataBonus3)
 
 function kataBonus3() {
-    // implemente o código do kata bonus 3 aqui
+
+    for (i = 1; i <= sampleArray.length; i++) {
+
+        let newElement = document.createElement("div");
+        newElement.className = "bar";
+        newElement.style.width = sampleArray[i] + "px";
+        newElement.style.height = 20 + "px";
+        newElement.style.display = "inline-block";
+        newElement.style.textAlign = "center";
+        // Place a text label inside the new div.
+        let newText = document.createTextNode("Pos." + i + " " + "width " + sampleArray[i] + "px");
+        newElement.appendChild(newText);
+
+        // Put the new div on the page inside the existing element "d0".
+        let destination = document.getElementById("d3");
+        destination.appendChild(newElement);
+
+        // implemente o código do kata bonus 2 aqui
+    }
 }
+window.addEventListener("load", kataBonus4)
 
 function kataBonus4() {
-    // implemente o código do kata bonus 4 aqui
+    for (i = 1; i <= sampleArray.length; i++) {
+
+        let newElement = document.createElement("div");
+        newElement.className = "bar";
+        newElement.style.width = sampleArray[i] + "px";
+        newElement.style.height = 20 + "px";
+        newElement.style.display = "inline-block";
+        newElement.style.textAlign = "center";
+        let newText = document.createTextNode("Pos." + i + " " + "width " + sampleArray[i] + "px");
+        newElement.appendChild(newText);
+
+
+        // Put the new div on the page inside the existing element "d0".
+        let destination = document.getElementById("d4");
+        destination.appendChild(newElement);
+    }
 }
 
 function kataBonus5() {
