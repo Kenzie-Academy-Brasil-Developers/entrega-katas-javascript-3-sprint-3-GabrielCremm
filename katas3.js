@@ -18,7 +18,7 @@ function kata1() {
 
     }
 
-    return newElement, destination;
+    return newElement;
 }
 
 
@@ -38,7 +38,7 @@ function kata2() {
         destination.appendChild(newElement);
 
     }
-    return newElement, destination;
+    return newElement;
 
 }
 window.addEventListener("load", kata3)
@@ -56,7 +56,7 @@ function kata3() {
         destination.appendChild(newElement);
 
     }
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kata4)
 
@@ -74,7 +74,7 @@ function kata4() {
         destination.appendChild(newElement);
 
     }
-    return newElement, destination;
+    return newElement;
 
 }
 window.addEventListener("load", kata5)
@@ -95,7 +95,7 @@ function kata5() {
 
         }
     }
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kata6)
 
@@ -115,7 +115,7 @@ function kata6() {
 
         }
     }
-    return newElement, destination;
+    return newElement;
 }
 
 
@@ -137,7 +137,7 @@ function kata7() {
 
         }
     }
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kata8)
 
@@ -158,7 +158,7 @@ function kata8() {
 
 
     }
-    return newElement, destination;
+    return newElement;
 }
 
 window.addEventListener("load", kata9)
@@ -179,7 +179,7 @@ function kata9() {
 
         }
     }
-    return newElement, destination;
+    return newElement;
 
 }
 window.addEventListener("load", kata10)
@@ -195,7 +195,7 @@ function kata10() {
         destination.appendChild(newElement);
 
     }
-    return newElement, destination;
+    return newElement;
 
 }
 window.addEventListener("load", kata11)
@@ -212,7 +212,7 @@ function kata11() {
             destination.appendChild(newElement);
         }
     }
-    return newElement, destination;
+    return newElement;
 
 }
 window.addEventListener("load", kata12)
@@ -229,7 +229,7 @@ function kata12() {
             destination.appendChild(newElement);
         }
     }
-    return newElement, destination;
+    return newElement;
 
 }
 window.addEventListener("load", kata13)
@@ -245,7 +245,7 @@ function kata13() {
             destination.appendChild(newElement);
         }
     }
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kata14)
 
@@ -275,7 +275,7 @@ function kata15() {
     destination.appendChild(newElement);
 
 
-    return newElement, destination;
+    return newElement;
 }
 
 window.addEventListener("load", kata16)
@@ -295,7 +295,7 @@ function kata16() {
 
     let destination = document.getElementById("d0");
     destination.appendChild(newElement);
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kata17)
 
@@ -318,7 +318,7 @@ function kata17() {
     let destination = document.getElementById("d0");
     destination.appendChild(newElement);
 
-    return newElement, destination;
+    return newElement;
 
 }
 window.addEventListener("load", kata18)
@@ -343,7 +343,7 @@ function kata18() {
     let destination = document.getElementById("d0");
     destination.appendChild(newElement);
 
-    return newElement, destination;
+    return newElement;
 }
 
 
@@ -366,7 +366,7 @@ function kataBonus1() {
         let destination = document.getElementById("d1");
         destination.appendChild(newElement);
     }
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kataBonus2)
 
@@ -393,7 +393,7 @@ function kataBonus2() {
 
         // implemente o código do kata bonus 2 aqui
     }
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kataBonus3)
 
@@ -417,7 +417,7 @@ function kataBonus3() {
 
 
     }
-    return newElement, destination;
+    return newElement;
 }
 window.addEventListener("load", kataBonus4)
 
@@ -438,7 +438,7 @@ function kataBonus4() {
         let destination = document.getElementById("d4");
         destination.appendChild(newElement);
     }
-    return newElement, destination;
+    return newElement;
 
 }
 
